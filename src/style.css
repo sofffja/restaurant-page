@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  /* overflow-y: scroll; */
-}
-
 body {
   min-height: 100vh;
   background-color: #e7e6e4;
@@ -56,13 +52,11 @@ img {
   width: clamp(400px, 60%, 600px);
   margin: 1rem auto;
   padding: 2rem;
-  /* border: 1px solid white; */
   border-radius: 16px;
   box-shadow: 0px 0px 16px #fff;
 }
 
 #content > * + *{
-  display: grid;
   margin-top: 1rem;
 }
 
